@@ -12,7 +12,7 @@
 		"start": "node build/index.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Sri Sathish.M as Padmanaban Mohan",
 	"license": "ISC",
 	"devDependencies": {
 		"@commitlint/cli": "^17.6.1",
