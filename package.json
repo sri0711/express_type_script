@@ -2,11 +2,14 @@
 	"name": "day1",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "build/index.js",
 	"scripts": {
+		"build": "tsc -p tsconfig.json",
 		"commit": "cz",
+		"dev": "tsc --watch & nodemon",
 		"lint": "eslint ./ --fix",
-		"lint-staged": "lint-staged"
+		"lint-staged": "lint-staged",
+		"start": "node build/index.js"
 	},
 	"keywords": [],
 	"author": "",
