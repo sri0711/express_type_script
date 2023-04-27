@@ -1,10 +1,12 @@
 {
-	"name": "day1",
+	"name": "typescript_learning",
 	"version": "1.0.0",
 	"description": "",
 	"main": "build/index.js",
+	"type": "commonjs",
 	"scripts": {
 		"build": "tsc -p tsconfig.json",
+		"clean": "rm -fr ./build",
 		"commit": "cz",
 		"dev": "tsc --watch & nodemon",
 		"lint": "eslint ./ --fix",
@@ -18,6 +20,7 @@
 		"@commitlint/cli": "^17.6.1",
 		"@commitlint/config-conventional": "^17.6.1",
 		"@types/express": "^4.17.17",
+		"@types/morgan": "^1.9.4",
 		"@types/node": "^18.16.0",
 		"@typescript-eslint/eslint-plugin": "^5.57.0",
 		"@typescript-eslint/parser": "^5.57.0",

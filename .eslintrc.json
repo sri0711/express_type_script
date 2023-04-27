@@ -18,6 +18,7 @@
 		"semi": ["error", "always"],
 		"func-style": ["error", "expression", {"allowArrowFunctions": true}],
 		"no-var": "error",
-		"lines-around-comment": ["error", {"beforeLineComment": true}]
+		"lines-around-comment": ["error", {"beforeLineComment": true}],
+		"@typescript-eslint/no-explicit-any": "off"
 	}
 }
