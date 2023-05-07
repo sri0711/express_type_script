@@ -1,4 +1,5 @@
-interface UserGet {
+interface User {
+	user_id?: string;
 	firstName: string;
 	lastName: string;
 	age: number;
@@ -10,4 +11,4 @@ interface UserGetPayload {
 	phone_number?: number;
 }
 
-export {UserGet, UserGetPayload};
+export {User, UserGetPayload};

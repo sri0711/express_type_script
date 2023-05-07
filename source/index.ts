@@ -12,6 +12,6 @@ app.use(express.json());
 import UserRoutes from './Routes/user.Route';
 
 // Router configuration
-app.use('/users', UserRoutes);
+app.use('/user', UserRoutes);
 
 Connection._expressIgniter(app);
