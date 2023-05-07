@@ -19,6 +19,7 @@
 		"func-style": ["error", "expression", {"allowArrowFunctions": true}],
 		"no-var": "error",
 		"lines-around-comment": ["error", {"beforeLineComment": true}],
-		"@typescript-eslint/no-explicit-any": "off"
+		"@typescript-eslint/no-explicit-any": "off",
+		"unicorn/filename-case": ["error", {"cases": {"camelCase": true, "pascalCase": true}}]
 	}
 }

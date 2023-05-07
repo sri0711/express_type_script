@@ -34,9 +34,11 @@
 		"typescript": "^5.0.4"
 	},
 	"dependencies": {
+		"@types/shortid": "^0.0.29",
 		"dotenv": "^16.0.3",
 		"express": "^4.18.2",
-		"morgan": "^1.10.0"
+		"morgan": "^1.10.0",
+		"shortid": "^2.2.16"
 	},
 	"config": {
 		"commitizen": {

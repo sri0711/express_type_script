@@ -8,4 +8,10 @@ const app = express();
 app.use(morgan('dev'));
 app.use(express.json());
 
+// Route files
+import UserRoutes from './Routes/user.Route';
+
+// Router configuration
+app.use('/users', UserRoutes);
+
 Connection._expressIgniter(app);
